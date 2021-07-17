@@ -31,3 +31,5 @@ ENV LD_LIBRARY_PATH=/opt/conda/lib
 
 #incase of omninames use
 RUN mkdir /var/omninames
+
+CMD omniNames -start 2809 -always
